@@ -1,0 +1,20 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:pin_code_fields/pin_code_fields.dart';
+import 'package:provider/provider.dart';
+import 'package:relaxify_app/models/models.dart';
+import 'package:relaxify_app/services/services.dart';
+import 'package:relaxify_app/ui/widgets/widgets.dart';
+
+part 'wrapper.dart';
+part 'login_page.dart';
+part 'home_page.dart';
+part 'splash_page.dart';
+part 'otp_page.dart';
+part 'edit_profile_page.dart';
+part 'edit_email_page.dart';
+part 'edit_password_page.dart';
+part 'edit_phone_page.dart';
+part 'verify_phoe_page.dart';
